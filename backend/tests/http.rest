@@ -1,0 +1,25 @@
+// This file requires the REST-Client Visual Studio Code extension and is meant to test the REST API manu
+// You can use the first request after each step to validate the content of the store
+
+### Retrieve ALL todos
+GET http://localhost:3000/todos
+
+### Create a new todo
+POST http://localhost:3000/todos
+Content-Type: application/json
+
+{
+    "text": "Eat Ice Cream :D"
+}
+
+### Update todo we just added
+PUT http://localhost:3000/todos
+Content-Type: application/json
+
+{
+    "id": 3, 
+    "text": "Make the world a better place"
+}
+
+### Remove the todo we added
+DELETE http://localhost:3000/todos/3
