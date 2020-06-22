@@ -1,7 +1,7 @@
 # daily-todos frontend
 React front-end for the daily-todos project
 
-# TODOs (Oh the irony :P)
+## TODOs (Oh the irony :P)
 - Strike-through style on hover
 - Complete on click
 - Add new with "Enter" key
