@@ -2,10 +2,10 @@
 // You can use the first request after each step to validate the content of the store
 
 ### Retrieve ALL todos
-GET http://localhost:3000/todos
+GET http://localhost:2000/todos
 
 ### Create a new todo
-POST http://localhost:3000/todos
+POST http://localhost:2000/todos
 Content-Type: application/json
 
 {
@@ -13,7 +13,7 @@ Content-Type: application/json
 }
 
 ### Update todo we just added
-PUT http://localhost:3000/todos
+PUT http://localhost:2000/todos
 Content-Type: application/json
 
 {
@@ -22,4 +22,4 @@ Content-Type: application/json
 }
 
 ### Remove the todo we added
-DELETE http://localhost:3000/todos/3
+DELETE http://localhost:2000/todos/3

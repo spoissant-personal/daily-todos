@@ -29,6 +29,11 @@
     "nodemon": "^2.0.4"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
+  },
+  "@comment nodemonConfig": "This prevents nodemon from reloading every time the file store gets updated",
+  "nodemonConfig": {
+    "ignore": ["data/*.json"]
   }
 }
