@@ -12,3 +12,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.todo-editButton {
+  visibility: hidden;
+}
+
+.todo-item:hover {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.todo-item:hover .todo-editButton {
+  visibility: visible;
+}
